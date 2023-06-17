@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Web - Login</title>
+  <link rel="stylesheet" type="text/css" href="login_styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Welcome to Quiz Web</h1>
+      <form id="login-form" action="#">
+        <div class="input-container">
+          <i class="fa fa-user"></i>
+          <input type="text" id="username" placeholder="Username" required>
+        </div>
+        <div class="input-container">
+          <i class="fa fa-lock"></i>
+          <input type="password" id="password" placeholder="Password" required>
+          <i id="toggle-password" class="fa fa-eye"></i>
+        </div>
+        <div class="forgot-password">
+          <a href="#">Forgot Password?</a>
+        </div>
+        <button type="submit">Login</button>
+        <div class="create-account">
+          <p>Don't have an account?</p>
+          <a href="signup/signup.html" class="btn">Create an Account</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
